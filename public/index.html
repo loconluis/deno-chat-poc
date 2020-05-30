@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deno - Chat </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="main-content">
+    <div class="main-content_title">
+      <h1>Deno - Chat</h1>
+    </div>
+    <div class="main-content_box">
+      <div class="users">
+        <h4>Users Online</h4>
+        <ul class="users_list">
+          <li><i class="fas fa-user"></i> User 1</li>
+          <li><i class="fas fa-user"></i> User 2</li>
+          <li><i class="fas fa-user"></i> User 3</li>
+          <li><i class="fas fa-user"></i> User 4</li>
+        </ul>
+      </div>
+      <div class="messages">
+        <div class="messages_read">
+          <ul class="messages_read-list">
+            <li>Messages 1</li>
+            <li>Messages 2</li>
+            <li>Messages 3</li>
+            <li>Messages 4</li>
+          </ul>
+        </div>
+        <div class="messaages_write">
+          <!-- here goes message to show -->
+          <div class="messaages_write-box">
+            <textarea autofocus="true" placeholder="Write your message here..." /></textarea>
+          </div>
+          <div class="messaages_write-button">
+            <button>
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+</body>
+</html>
